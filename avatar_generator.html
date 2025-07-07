@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avatar Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>Create Your Avatar </h1>
+  <div class="container">
+
+    <!-- this input is hidden, it will only appear when user click on "+" avatar -->
+    <div id="inputSection" class="input-section hidden">
+        <input type="text" id="username" placeholder="Enter your name" />
+        <button onclick="addUser()">Add User</button>
+    </div>
+    
+    <div id="avatars" class="avatar-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
