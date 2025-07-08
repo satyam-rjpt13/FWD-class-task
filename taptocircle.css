@@ -1,0 +1,22 @@
+ .circle {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: aqua;
+        position: absolute;
+        
+      }
+      .btn {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        background-color: aliceblue;
+        cursor: pointer;
+      }
+      .contentArea {
+        height: 100vh;
+      }
+       .btn:disabled {
+        background-color: lightgray;
+        cursor: not-allowed;
+      }
